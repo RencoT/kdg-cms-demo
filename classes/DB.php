@@ -9,7 +9,7 @@ class DB
             
         if(!self::$objInstance)
         { 
-            self::$objInstance = new PDO("mysql:host=localhost;dbname=cms;charset=utf8", "root", ""); 
+            self::$objInstance = new PDO("mysql:host=localhost;dbname=kdg-cms-demo;charset=utf8", "root", ""); 
 			self::$objInstance->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); 
         } 
         
